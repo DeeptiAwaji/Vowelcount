@@ -1,7 +1,8 @@
 
-# Program to count vowels in a string entered by the user
 
-string = input("Enter a string: ")
+# Program to count vowels in a string
+
+string = input("Enter a string: ") if __name__ == "__main__" else ""
 
 vowels = "aeiouAEIOU"
 count = 0
